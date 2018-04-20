@@ -1,0 +1,190 @@
+<% @page_title = "Dashboard" %>
+
+<section class="wrapper">
+		<!-- //market-->
+		<div class="market-updates">
+			<div class="col-md-4 market-update-gd">
+				<div class="market-update-block clr-block-2">
+					<div class="col-md-4 market-update-right">
+						<i class="fa fa-eye"> </i>
+					</div>
+					 <div class="col-md-8 market-update-left">
+					 <h4>Atendimentos</h4>
+					<h3>54</h3>
+					<p>Vezes que você ficou de babá</p>
+				  </div>
+				  <div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-4 market-update-gd">
+				<div class="market-update-block clr-block-1">
+					<div class="col-md-4 market-update-right">
+						<i class="fa fa-users" ></i>
+					</div>
+					<div class="col-md-8 market-update-left">
+					<h4>Pessoas atendidas</h4>
+						<h3>13</h3>
+						<p>Quantidade de usuários</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-4 market-update-gd">
+				<div class="market-update-block clr-block-3">
+					<div class="col-md-4 market-update-right">
+						<i class="fa fa-usd"></i>
+					</div>
+					<div class="col-md-8 market-update-left">
+						<h4>Orçamento mensal</h4>
+						<h3>R$1,500</h3>
+						<p>Valor para este mês</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+			</div>
+		   <div class="clearfix"> </div>
+		</div>	
+		<!-- //market-->
+		<div class="agil-info-calendar">
+		<div class="col-md-6 w3agile-notifications">
+			<div class="notifications">
+				<!--notification start-->
+				
+					<header class="panel-heading">
+						Chamados 
+					</header>
+					<div class="notify-w3ls">
+						<div class="alert alert-info clearfix">
+							<span class="alert-icon"><i class="fa fa-envelope-o"></i></span>
+							<div class="notification-info">
+								<ul class="clearfix notification-meta">
+									<li class="pull-left notification-sender"><span><a href="#">Jonathan Smith</a></span> solicitou um novo atendimento </li>
+									<li class="pull-right notification-time">1 min atrás</li>
+								</ul>
+								<p>
+									Vou precisar me ausentar dia 31/02
+								</p>
+							</div>
+						</div>
+						<div class="alert alert-danger">
+							<span class="alert-icon"><i class="fa fa-facebook"></i></span>
+							<div class="notification-info">
+								<ul class="clearfix notification-meta">
+									<li class="pull-left notification-sender"><span><a href="#">Sara Smith</a></span> elogiou seu atendimento </li>
+									<li class="pull-right notification-time">7 Horas atrás</li>
+								</ul>
+								<p>
+									Muito louco, foi massa
+								</p>
+							</div>
+						</div>
+						<div class="alert alert-success ">
+							<span class="alert-icon"><i class="fa fa-comments-o"></i></span>
+							<div class="notification-info">
+								<ul class="clearfix notification-meta">
+									<li class="pull-left notification-sender">Você tem 5 novas mensagens não lidas</li>
+									<li class="pull-right notification-time">1 min atrás</li>
+								</ul>
+								<p>
+									<a href="#">Anjelina Mewlo, Jack Flip</a> e <a href="#">3 outros</a>
+								</p>
+							</div>
+						</div>
+						<div class="alert alert-warning ">
+							<span class="alert-icon"><i class="fa fa-bell-o"></i></span>
+							<div class="notification-info">
+								<ul class="clearfix notification-meta">
+									<li class="pull-left notification-sender">Um chamado foi cancelado</li>
+									<li class="pull-right notification-time">5 Dias Atrás</li>
+								</ul>
+								<p>
+									FOM
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				
+				<!--notification end-->
+				</div>
+			</div>
+			<div class="col-md-6 agile-last-left">
+					<div class="agile-last-grid">
+						<div class="area-grids-heading">
+							<h3>Estatísticas do mês</h3>
+						</div>
+						<div id="graph7"></div>
+						<script>
+						// This crosses a DST boundary in the UK.
+						Morris.Area({
+						  element: 'graph7',
+						  data: [
+							{x: '2013-03-30 22:00:00', y: 3, z: 3},
+							{x: '2013-03-31 00:00:00', y: 2, z: 0},
+							{x: '2013-03-31 02:00:00', y: 0, z: 2},
+							{x: '2013-03-31 04:00:00', y: 4, z: 4}
+						  ],
+						  xkey: 'x',
+						  ykeys: ['y', 'z'],
+						  labels: ['Y', 'Z']
+						});
+						</script>
+
+					</div>
+				</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- //tasks -->
+		<div class="agileits-w3layouts-stats">
+					<div class="col-md-12 stats-info stats-last widget-shadow">
+						<div class="stats-last-agile">
+							<div class="stats-title">
+								<h4 class="title">Clientes mais atendidos</h4>
+							</div>
+							<table class="table stats-table ">
+								<thead>
+									<tr>
+										<th></th>
+										<th>CLIENTE</th>
+										<th>AVALIAÇÃO</th>
+										<th>ATENDIMENTOS</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Jucimara</td>
+										<td><span class="label label-success">Boa</span></td>
+										<td><h5>16 <i class="fa fa-thumbs-up"></i></h5></td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Jabiscreiton</td>
+										<td><span class="label label-warning">Média</span></td>
+										<td><h5>14 <i class="fa fa-thumbs-up"></i></h5></td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Jenisvaldo</td>
+										<td><span class="label label-danger">Ruim</span></td>
+										<td><h5 class="down">10 <i class="fa fa-thumbs-down"></i></h5></td>
+									</tr>
+									<tr>
+										<th scope="row">4</th>
+										<td>Jacolino</td>
+										<td><span class="label label-info">Ótima</span></td>
+										<td><h5>6 <i class="fa fa-thumbs-up"></i></h5></td>
+									</tr>
+									<tr>
+										<th scope="row">5</th>
+										<td>Jiresbraga</td>
+										<td><span class="label label-success">Boa</span></td>
+										<td><h5>4 <i class="fa fa-thumbs-up"></i></h5></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+</section>

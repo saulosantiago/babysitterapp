@@ -14,3 +14,15 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery.min.js
+//= require jquery2.0.3.min.js
+//= require bootstrap.js
+//= require raphael-min.js
+//= require morris.js
+//= require jquery.dcjqaccordion.2.7.js
+//= require scripts.js
+//= require jquery.slimscroll.js
+//= require jquery.nicescroll.js
+//= require jquery.scrollTo.js
+
+

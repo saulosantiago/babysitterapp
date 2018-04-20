@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+
+ @font-face {
+     font-family: 'Glyphicons Halflings';
+     src: url('/assets/glyphicons-halflings-regular.eot');
+     src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+ }
+
+
+  @font-face {
+     font-family: 'Font Awesome';
+     src: url('/assets/fontawesome-webfont.eot');
+     src: url('/assets/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fontawesome-webfont.woff') format('woff'), url('/assets/fontawesome-webfont.ttf') format('truetype'), url('/assets/fontawesome-webfont.svg#glyphicons-halflingsregular') format('svg');
+ }

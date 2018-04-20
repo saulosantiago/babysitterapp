@@ -1,0 +1,2 @@
+class ChamadosController < ApplicationController
+end
