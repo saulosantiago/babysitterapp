@@ -1,0 +1,13 @@
+<%= form_tag signin_path method:"POST" %>
+
+    <%= label_tag ("Email") %>
+    <%= text_field_tag (:email) %> <br>
+
+    <%= label_tag ("Password") %>
+    <%= text_field_tag (:password) %> <br>
+
+    <%= submit_tag("Login") %> <br>
+
+    <%= link_to  "You don't have an account?", new_user_path %>
+
+    

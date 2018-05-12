@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails babysitterapp: development" uuid="de0843e3-5b1b-4fd4-b2f7-0b5832087826">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Rails babysitterapp: test" uuid="fee6038e-29f5-44c6-a1b5-e9c03b14c184">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>

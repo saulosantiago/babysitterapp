@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<title>BabySitter | Login </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="BabySitter" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body style="background: url(<%= image_path("bg.jpg") %>) no-repeat 0px 0px">
+<div class="log-w3">
+<div class="w3layouts-main">
+	<h2>Login</h2>
+		<form action="/">
+			<input type="email" class="ggg" name="Email" placeholder="E-MAIL" required="">
+			<input type="password" class="ggg" name="Senha" placeholder="SENHA" required="">
+			<span><input type="checkbox" />Manter-se logado</span>
+			<h6><a href="#">Esqueceu a senha?</a></h6>
+				<div class="clearfix"></div>
+				<input type="submit" value="Entrar" name="login">
+		</form>
+		<p>Não tem uma conta?<a href="registration.html">Criar sua conta</a></p>
+</div>
+</div>
+ <%= render partial: "partials/footer" %>
+</body>
+</html>
